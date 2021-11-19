@@ -1,0 +1,14 @@
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.ViewModel.deps.json
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.ViewModel.dll
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.ViewModel.pdb
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Common.dll
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Model.dll
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Model.pdb
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\bin\Debug\netstandard2.1\OneFitnessVue.Common.pdb
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.csproj.AssemblyReference.cache
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.AssemblyInfoInputs.cache
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.AssemblyInfo.cs
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.csproj.CoreCompileInputs.cache
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.csproj.CopyComplete
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.dll
+E:\Poj\OneFitnessVue-main\OneFitnessVueSolution\OneFitnessVue.ViewModel\obj\Debug\netstandard2.1\OneFitnessVue.ViewModel.pdb

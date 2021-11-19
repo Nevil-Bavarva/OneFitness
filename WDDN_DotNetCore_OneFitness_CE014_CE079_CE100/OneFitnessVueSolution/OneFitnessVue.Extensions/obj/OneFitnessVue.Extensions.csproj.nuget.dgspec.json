@@ -1,0 +1,428 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj": {}
+  },
+  "projects": {
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj",
+        "projectName": "OneFitnessVue.Common",
+        "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj",
+        "projectName": "OneFitnessVue.Data",
+        "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              },
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj",
+        "projectName": "OneFitnessVue.Extensions",
+        "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\OneFitnessVue.Extensions.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
+              },
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              },
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj"
+              },
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj",
+        "projectName": "OneFitnessVue.Model",
+        "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Common\\OneFitnessVue.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj",
+        "projectName": "OneFitnessVue.Services",
+        "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\OneFitnessVue.Services.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Data\\OneFitnessVue.Data.csproj"
+              },
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              },
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj",
+        "projectName": "OneFitnessVue.ViewModel",
+        "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\OneFitnessVue.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj": {
+                "projectPath": "E:\\Poj\\OneFitnessVue-main\\OneFitnessVueSolution\\OneFitnessVue.Model\\OneFitnessVue.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
